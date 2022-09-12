@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 
-function VideoPlayer() {
+function VideoPlayer(props) {
 
     return (
         <ReactPlayer
             className='react-player'
-            url='Video1.mp4'
+            url={props.url}
             width='50%'
             height='100vh'
             playing={true}
-            muted={true}
+            muted={props.muted}
             controls={true}
         />
     );
