@@ -1,0 +1,9 @@
+.dimension {
+    width: 50%;
+    height: 100vh;
+}
+button {
+    width: 250px;
+    border-radius: 50px;
+    background-color: #d619d9;
+}
